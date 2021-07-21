@@ -1,6 +1,6 @@
   @import url("normalize.css");
   @media screen and (min-width: 992px) {
-    body {width: 50%;}
+    body {width: 50%; height: 100vh;}
    }
    @media screen and (min-width: 1200px) {
     body {width: 100%;}}
@@ -109,7 +109,8 @@
     width:100%;
     top: 0;
     background-size: cover;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     min-height: 719px;
   }
   .Piper_2_title {
